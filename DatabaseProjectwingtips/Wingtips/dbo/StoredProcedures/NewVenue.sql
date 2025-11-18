@@ -17,7 +17,6 @@ CREATE PROCEDURE [dbo].[NewVenue]
           RETURN 1
       END
   
-  
       -- Insert Venue
       INSERT INTO [dbo].Venues
           ([VenueId],[VenueName],[VenueType],[AdminEmail],[CountryCode], [PostalCode])         

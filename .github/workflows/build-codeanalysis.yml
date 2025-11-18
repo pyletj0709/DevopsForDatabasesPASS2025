@@ -1,15 +1,15 @@
 name: Build SQL project with code analysis
     
 on:
-  push:
-    branches: [ "main" ]
-    paths:
-      - 'Wingtips/**'
-  pull_request:
-    branches: [ "main" ]
-    paths:
-      - 'Wingtips/**'
-    
+      push:
+        branches: [ "main" ]
+        paths:
+          - 'Wingtips/**'
+      pull_request:
+        branches: [ "main" ]
+        paths:
+        - 'Wingtips/**'
+
 jobs:
   build:
     runs-on: ubuntu-22.04
