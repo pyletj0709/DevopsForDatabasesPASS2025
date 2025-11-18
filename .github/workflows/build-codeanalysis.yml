@@ -1,6 +1,6 @@
- name: Build SQL project with code analysis
+name: Build SQL project with code analysis
     
-    on:
+on:
       push:
         branches: [ "main" ]
         paths:
